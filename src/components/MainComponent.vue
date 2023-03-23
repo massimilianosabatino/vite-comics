@@ -1,5 +1,12 @@
 <script>
     export default {}
 </script>
-<template></template>
-<style lang="scss" scoped></style>
+<template>
+    <div></div>
+</template>
+<style lang="scss" scoped>
+    * {
+        height: 130px;
+        background-color: black;
+    }
+</style>

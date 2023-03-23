@@ -1,4 +1,5 @@
 <script>
+    //Import app component
     import LogoComponent from './LogoComponent.vue';
     import MainMenuComponent from './MainMenuComponent.vue';
 
