@@ -24,8 +24,8 @@
 </template>
 
 <style lang="scss" scoped>
-  .container {
-    max-width: 80rem;
-    margin: auto;
-  }
+  // .container {
+  //   max-width: 80rem;
+  //   margin: auto;
+  // }
 </style>

@@ -17,11 +17,13 @@
     </div>
 </template>
 <style lang="scss" scoped>
+    @use "./style/common.scss" as *;
     .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 7.375rem;
-        padding: 1.1875rem;
+        @include container;
+        padding: 1.1875rem 0 1.1875rem 0;
     }
 </style>

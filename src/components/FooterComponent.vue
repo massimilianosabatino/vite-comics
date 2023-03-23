@@ -7,35 +7,41 @@ import SecondaryMenuComponent from './SecondaryMenuComponent.vue';
     }
 </script>
 <template>
-    <div class="secondary-menu">
-        <div class="menu">
-            <SecondaryMenuComponent/>
-        </div>
-        <div class="logo-img">
-            <img src="./../assets/dc-logo-bg.png" alt="Logo DC">
+    <div class="bg">
+        <div class="secondary-menu">
+            <div class="menu">
+                <SecondaryMenuComponent/>
+            </div>
+            <div class="logo-img">
+                <img src="./../assets/dc-logo-bg.png" alt="Logo DC">
+            </div>
         </div>
     </div>
 </template>
 <style lang="scss" scoped>
     @use "./style/variables.scss" as *;
+    @use "./style/common.scss" as *;
 
-    .secondary-menu {
-        display: flex;
-        justify-content: space-between;
+    .bg {
         background-image: url(./../assets/footer-bg.jpg);
-        overflow: hidden;
-        max-height: 23.125rem;
-        .menu {
+        .secondary-menu {
             display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            padding-top: 2.5rem;
-            padding-bottom: 2.5rem;
-        }
-        .logo-img {
-            align-self: center;
-            img {
-                display: block;
+            justify-content: space-between;
+            overflow: hidden;
+            max-height: 23.125rem;
+            @include container;
+            .menu {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                padding-top: 2.5rem;
+                padding-bottom: 2.5rem;
+            }
+            .logo-img {
+                align-self: center;
+                img {
+                    display: block;
+                }
             }
         }
     }
