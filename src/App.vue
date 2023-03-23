@@ -15,17 +15,12 @@
 </script>
 
 <template>
-  <div class="container">
     <HeaderComponent />
     <MainComponent />
     <SubMenuComponet />
     <FooterComponent />
-  </div>
 </template>
 
 <style lang="scss" scoped>
-  // .container {
-  //   max-width: 80rem;
-  //   margin: auto;
-  // }
+
 </style>

@@ -1,8 +1,11 @@
 <script>
 import SecondaryMenuComponent from './SecondaryMenuComponent.vue';
+import FooterActionsComponents from './FooterActionsComponents.vue';
+
     export default {
         components: {
-            SecondaryMenuComponent
+            SecondaryMenuComponent,
+            FooterActionsComponents
         }
     }
 </script>
@@ -17,6 +20,7 @@ import SecondaryMenuComponent from './SecondaryMenuComponent.vue';
             </div>
         </div>
     </div>
+    <FooterActionsComponents />
 </template>
 <style lang="scss" scoped>
     @use "./style/variables.scss" as *;
@@ -24,6 +28,8 @@ import SecondaryMenuComponent from './SecondaryMenuComponent.vue';
 
     .bg {
         background-image: url(./../assets/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         .secondary-menu {
             display: flex;
             justify-content: space-between;
