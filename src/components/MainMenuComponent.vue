@@ -70,24 +70,33 @@
     @use "./style/typo.scss" as *;
     ul {
         display: flex;
+        align-items: center;
         list-style: none;
         font-size: 1rem;
         font-weight: 600;
         text-transform: uppercase;
+        height: 100%;
         
         li {
-            &:hover {
-            border-bottom: 5px solid $primary-color;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            position: relative;
+            &:hover::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 5px;
+                width: 100%;
+                background-color: $primary-color;
             }
+
             a {
                 color: #313131;
                 text-decoration: none;
                 @include font-family;
-                padding-left: 2.125rem;
-
-                &:hover {
-                    color: $primary-color;
-                }
+                margin: 0 .9375rem;
             }
         }
     }

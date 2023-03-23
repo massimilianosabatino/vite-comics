@@ -1,17 +1,24 @@
 <script>
   import HeaderComponent from './components/HeaderComponent.vue';
-
+  import MainComponent from './components/MainComponent.vue';
   export default {
     components: {
-      HeaderComponent
+      HeaderComponent,
+      MainComponent
     }
   }
 </script>
 
 <template>
-  <HeaderComponent />
+  <div class="container">
+    <HeaderComponent />
+    <MainComponent />
+  </div>
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  .container {
+    max-width: 80rem;
+    margin: auto;
+  }
 </style>

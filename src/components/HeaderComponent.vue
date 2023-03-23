@@ -20,5 +20,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 7.375rem;
+        padding: 1.1875rem;
     }
 </style>

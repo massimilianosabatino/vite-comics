@@ -11,6 +11,7 @@
         max-width: 5rem;
 
         img {
+            display: block;
             width: 100%;
         }
     }
