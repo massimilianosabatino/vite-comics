@@ -66,8 +66,8 @@
     </ul>
 </template>
 <style lang="scss" scoped>
-    @use "./style/abstracts/variables" as *;
-    @use "./style/base/typo" as *;
+    @use "../assets/style/abstracts/variables" as *;
+    @use "../assets/style/base/typo" as *;
     ul {
         display: flex;
         align-items: center;

@@ -5,8 +5,8 @@ export default {}
     <button>SIGN-UP NOW!</button>
 </template>
 <style lang="scss" scoped>
-    @use "./style/abstracts/variables" as *;
-    @use "./style/base/typo" as *;
+    @use "../assets/style/abstracts/variables" as *;
+    @use "../assets/style/base/typo" as *;
 
     button {
         background-color: transparent;

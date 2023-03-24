@@ -17,7 +17,7 @@
     </div>
 </template>
 <style lang="scss" scoped>
-    @use "./style/base/common.scss" as *;
+    @use "../assets/style/base/common.scss" as *;
     .container {
         display: flex;
         justify-content: space-between;

@@ -50,7 +50,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-    @use "./style/abstracts/variables" as *;
+    @use "../assets/style/abstracts/variables" as *;
     .sub-menu {
         height: 155px;
         background-color: $primary-color;

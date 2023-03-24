@@ -23,8 +23,8 @@ import FooterActionsComponents from './FooterActionsComponents.vue';
     <FooterActionsComponents />
 </template>
 <style lang="scss" scoped>
-    @use "./style/abstracts/variables" as *;
-    @use "./style/base/common" as *;
+    @use "../assets/style/abstracts/variables" as *;
+    @use "../assets/style/base/common" as *;
 
     .bg {
         background-image: url(./../assets/img/footer-bg.jpg);

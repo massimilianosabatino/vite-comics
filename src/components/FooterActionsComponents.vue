@@ -18,7 +18,7 @@
     </div>
 </template>
 <style lang="scss" scoped>
-        @use "./style/base/common" as *;
+        @use "../assets/style/base/common" as *;
     .bg-actions {
         background-color: #303030;
     }
