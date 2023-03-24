@@ -2,11 +2,39 @@
     export default {}
 </script>
 <template>
-<div></div>
+    <main>
+        <section id="jumbo"></section>
+        <section id="content">
+            <div class="container">
+                <div class="tag">CURRENT SERIES</div>
+
+            </div>
+        </section>
+    </main>
 </template>
 <style lang="scss" scoped>
-    div {
-        height: 130px;
-        background-color: black;
+    @use '../assets/style/base/common' as *;
+    @use '../assets/style/abstracts/variables' as *;
+
+    #jumbo {
+        background-image: url(./../assets/img/jumbotron.jpg);
+        height: 25rem;
+    }
+
+    #content {
+        background-color: #1c1c1c
+    }
+    .container {
+        @include container;
+        position: relative;
+        left: 0;
+        top: -1.875rem;
+        .tag{
+            background-color: $primary-color;
+            width: max-content;
+            padding: .9375rem 1.25rem;
+            font-weight: 600;
+            font-size: 1.375rem;
+        }
     }
 </style>
