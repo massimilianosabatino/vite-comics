@@ -1,11 +1,18 @@
 <script>
-    export default{};
+    export default{
+        props: {
+            name: String,
+            url: String,
+            taget: String
+        }
+
+    };
 </script>
 <template>
-    <a :href="element.link">
+    <a :href="taget">
         <div>
-            <img :src="element.url" :alt="`Icon ${element.name}`">
-            <div class="text">{{ element.name }}</div>
+            <img :src="url" :alt="`Icon ${name}`">
+            <div class="text">{{ name }}</div>
         </div>
     </a>
 </template>
