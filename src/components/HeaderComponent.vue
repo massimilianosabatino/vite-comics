@@ -24,6 +24,6 @@
         align-items: center;
         height: 7.375rem;
         @include container;
-        padding: 1.1875rem 0 1.1875rem 0;
+        // padding: 1.1875rem 0 1.1875rem 0;
     }
 </style>

@@ -2,7 +2,7 @@
 export default {}
 </script>
 <template>
-    <button>SIGN-UP NOW!</button>
+    <button type="button">SIGN-UP NOW!</button>
 </template>
 <style lang="scss" scoped>
     @use "../assets/style/abstracts/variables" as *;
@@ -15,5 +15,6 @@ export default {}
         border: 2px solid $primary-color;
         padding: .875rem;
         @include font-family;
+        cursor: pointer;
     }
 </style>

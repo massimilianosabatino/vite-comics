@@ -5,11 +5,11 @@
     <div class="wrapper">
         <div class="title">FOLLOW US</div>
         <div class="icons">
-            <img src="./../assets/img/footer-facebook.png" alt="Logo Facebook">
-            <img src="./../assets/img/footer-twitter.png" alt="Logo Twitter">
-            <img src="./../assets/img/footer-youtube.png" alt="Logo Youtube">
-            <img src="./../assets/img/footer-pinterest.png" alt="Logo Pinterest">
-            <img src="./../assets/img/footer-periscope.png" alt="Logo Periscope">
+            <a href="#" target="_blank"><img src="./../assets/img/footer-facebook.png" alt="Logo Facebook"></a>
+            <a href="#" target="_blank"><img src="./../assets/img/footer-twitter.png" alt="Logo Twitter"></a>
+            <a href="#" target="_blank"><img src="./../assets/img/footer-youtube.png" alt="Logo Youtube"></a>
+            <a href="#" target="_blank"><img src="./../assets/img/footer-pinterest.png" alt="Logo Pinterest"></a>
+            <a href="#" target="_blank"><img src="./../assets/img/footer-periscope.png" alt="Logo Periscope"></a>
         </div>
     </div>
 </template>
@@ -24,6 +24,7 @@
 
         .title {
             color: $primary-color;
+            font-weight: 600;
             margin-right: 1.875rem;
         }
 
