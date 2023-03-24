@@ -97,9 +97,16 @@
         flex-wrap: wrap;
         div {
             flex-basis: calc(100% / 6);
+            overflow-y: hidden;
+            padding: 0 .8125rem;
+            color: #fff;
+            font-size: .625rem;
+            margin-bottom: 2.8125rem;
 
             :deep(img){
+                display: block;
                 width: 100%;
+                margin-bottom: 1.25rem;
             }
         }
     }
