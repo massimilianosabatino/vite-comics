@@ -1,5 +1,10 @@
 <script>
-    export default {}
+    import CurrentSeriesComponent from './CurrentSeriesComponent.vue';
+    export default {
+        components: {
+            CurrentSeriesComponent
+        }
+    }
 </script>
 <template>
     <main>
@@ -7,7 +12,7 @@
         <section id="content">
             <div class="container">
                 <div class="tag">CURRENT SERIES</div>
-
+                <CurrentSeriesComponent />
             </div>
         </section>
     </main>
