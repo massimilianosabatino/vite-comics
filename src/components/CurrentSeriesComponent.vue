@@ -107,6 +107,10 @@
                 display: block;
                 width: 100%;
                 margin-bottom: 1.25rem;
+                aspect-ratio: 1/1;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                object-position: top;
             }
         }
     }
