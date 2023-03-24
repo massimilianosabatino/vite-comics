@@ -9,27 +9,27 @@ export default {
             cards: [
                 {
                     name: 'digital comics',
-                    url: './src/assets/buy-comics-digital-comics.png',
+                    url: './src/assets/img/buy-comics-digital-comics.png',
                     link: '#'
                 },
                 {
                     name: 'dc merchandise',
-                    url: './src/assets/buy-comics-merchandise.png',
+                    url: './src/assets/img/buy-comics-merchandise.png',
                     link: '#'
                 },
                 {
                     name: 'subscription',
-                    url: './src/assets/buy-comics-subscriptions.png',
+                    url: './src/assets/img/buy-comics-subscriptions.png',
                     link: '#'
                 },
                 {
                     name: 'comic shop locator',
-                    url: './src/assets/buy-comics-shop-locator.png',
+                    url: './src/assets/img/buy-comics-shop-locator.png',
                     link: '#'
                 },
                 {
                     name: 'dc power visa',
-                    url: './src/assets/buy-dc-power-visa.svg',
+                    url: './src/assets/img/buy-dc-power-visa.svg',
                     link: '#'
                 },
             ]
@@ -50,7 +50,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-    @use "./style/variables.scss" as *;
+    @use "./style/abstracts/variables" as *;
     .sub-menu {
         height: 155px;
         background-color: $primary-color;

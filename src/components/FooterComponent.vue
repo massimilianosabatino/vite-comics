@@ -16,18 +16,18 @@ import FooterActionsComponents from './FooterActionsComponents.vue';
                 <SecondaryMenuComponent/>
             </div>
             <div class="logo-img">
-                <img src="./../assets/dc-logo-bg.png" alt="Logo DC">
+                <img src="./../assets/img/dc-logo-bg.png" alt="Logo DC">
             </div>
         </div>
     </div>
     <FooterActionsComponents />
 </template>
 <style lang="scss" scoped>
-    @use "./style/variables.scss" as *;
-    @use "./style/common.scss" as *;
+    @use "./style/abstracts/variables" as *;
+    @use "./style/base/common" as *;
 
     .bg {
-        background-image: url(./../assets/footer-bg.jpg);
+        background-image: url(./../assets/img/footer-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         .secondary-menu {

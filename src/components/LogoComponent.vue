@@ -3,7 +3,7 @@
 </script>
 <template>
     <div class="logo">
-        <img src="./../assets/dc-logo.png" alt="Logo DC Comics">
+        <img src="./../assets/img/dc-logo.png" alt="Logo DC Comics">
     </div>
 </template>
 <style lang="scss" scoped>

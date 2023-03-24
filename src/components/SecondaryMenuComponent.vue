@@ -178,8 +178,8 @@ export default {
     </ul>
 </template>
 <style lang="scss" scoped>
-    @use "./style/variables.scss" as *;
-    @use "./style/typo.scss" as *;
+    @use "./style/abstracts/variables" as *;
+    @use "./style/base/typo" as *;
 
     ul {
         display: flex;

@@ -5,17 +5,17 @@
     <div class="wrapper">
         <div class="title">FOLLOW US</div>
         <div class="icons">
-            <img src="./../assets/footer-facebook.png" alt="Logo Facebook">
-            <img src="./../assets/footer-twitter.png" alt="Logo Twitter">
-            <img src="./../assets/footer-youtube.png" alt="Logo Youtube">
-            <img src="./../assets/footer-pinterest.png" alt="Logo Pinterest">
-            <img src="./../assets/footer-periscope.png" alt="Logo Periscope">
+            <img src="./../assets/img/footer-facebook.png" alt="Logo Facebook">
+            <img src="./../assets/img/footer-twitter.png" alt="Logo Twitter">
+            <img src="./../assets/img/footer-youtube.png" alt="Logo Youtube">
+            <img src="./../assets/img/footer-pinterest.png" alt="Logo Pinterest">
+            <img src="./../assets/img/footer-periscope.png" alt="Logo Periscope">
         </div>
     </div>
 </template>
 <style lang="scss" scoped>
-    @use "./style/variables.scss" as *;
-    @use "./style/typo.scss" as *;
+    @use "./style/abstracts/variables" as *;
+    @use "./style/base/typo" as *;
     .wrapper {
         display: flex;
         flex-wrap: nowrap;
