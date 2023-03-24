@@ -10,17 +10,19 @@ import FooterActionsComponents from './FooterActionsComponents.vue';
     }
 </script>
 <template>
-    <div class="bg">
-        <div class="secondary-menu">
-            <div class="menu">
-                <SecondaryMenuComponent/>
-            </div>
-            <div class="logo-img">
-                <img src="./../assets/img/dc-logo-bg.png" alt="Logo DC">
+    <footer>
+        <div class="bg">
+            <div class="secondary-menu">
+                <div class="menu">
+                    <SecondaryMenuComponent/>
+                </div>
+                <div class="logo-img">
+                    <img src="./../assets/img/dc-logo-bg.png" alt="Logo DC">
+                </div>
             </div>
         </div>
-    </div>
-    <FooterActionsComponents />
+        <FooterActionsComponents />
+    </footer>
 </template>
 <style lang="scss" scoped>
     @use "../assets/style/abstracts/variables" as *;

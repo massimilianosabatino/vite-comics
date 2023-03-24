@@ -11,10 +11,12 @@
     }
 </script>
 <template>
-    <div class="container">
-        <LogoComponent class="logo" />
-        <MainMenuComponent class="menu"/>
-    </div>
+    <header>
+        <div class="container">
+            <LogoComponent class="logo" />
+            <MainMenuComponent class="menu"/>
+        </div>
+    </header>
 </template>
 <style lang="scss" scoped>
     @use "../assets/style/base/common.scss" as *;
