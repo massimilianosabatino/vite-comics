@@ -13,6 +13,7 @@
             <div class="container">
                 <div class="tag">CURRENT SERIES</div>
                 <CurrentSeriesComponent />
+                <button type="button" class="load-more">LOAD MORE</button>
             </div>
         </section>
     </main>
@@ -41,5 +42,21 @@
             font-weight: 600;
             font-size: 1.375rem;
         }
+        .load-more {
+            display: block;
+            background-color: $primary-color;
+            color: #FFF;
+            padding: .9375rem 3.75rem;
+            font-weight: 600;
+            font-size: 1rem;
+            border: none;
+            margin: auto;
+            cursor: pointer;
+
+            &:hover{
+                background-color: adjust-color($primary-color, $blackness: 30%);
+            }
+        }
     }
+
 </style>

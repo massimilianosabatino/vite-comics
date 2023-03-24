@@ -212,6 +212,10 @@ export default {
                 margin-bottom: .0625rem;
                 a {
                     color: #797979;
+
+                    &:hover {
+                        color: #939393;
+                    }
                 }
             }
         }        

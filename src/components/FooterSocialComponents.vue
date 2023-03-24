@@ -31,6 +31,10 @@
         .icons {
             img {
                 margin-left: 1.125rem;
+
+                &:hover{
+                    filter: brightness(1.4);
+                }
             }
         }
     }

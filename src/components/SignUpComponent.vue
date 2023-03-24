@@ -16,5 +16,9 @@ export default {}
         padding: .875rem;
         @include font-family;
         cursor: pointer;
+        
+        &:hover {
+            background-color: $primary-color;
+        }
     }
 </style>
