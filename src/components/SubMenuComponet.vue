@@ -78,6 +78,11 @@ export default {
             align-items: center;
             a {
                 flex-basis: calc(100% / 5);
+                &:hover{
+                    animation: 0.5s infinite alternate bounce;
+                }
+                
+                
                 div {
                     justify-content: center;
                     color: #fff;
@@ -92,5 +97,7 @@ export default {
             }
         }
     }
+
+
 
 </style>

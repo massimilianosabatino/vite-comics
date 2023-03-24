@@ -3,13 +3,13 @@
         props: {
             name: String,
             url: String,
-            taget: String
+            link: String
         }
 
     };
 </script>
 <template>
-    <a :href="taget">
+    <a :href="link">
         <div>
             <img :src="url" :alt="`Icon ${name}`">
             <div class="text">{{ name }}</div>

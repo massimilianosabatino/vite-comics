@@ -102,6 +102,11 @@
             color: #fff;
             font-size: .625rem;
             margin-bottom: 2.8125rem;
+            cursor: pointer;
+
+            &:hover {
+                scale: 1.1;
+            }
 
             :deep(img){
                 display: block;
